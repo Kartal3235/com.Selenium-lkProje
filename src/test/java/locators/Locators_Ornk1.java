@@ -31,7 +31,7 @@ public class Locators_Ornk1 {
         WebElement aramaKutusu=driver.findElement(By.name("q"));
         aramaKutusu.sendKeys("amazon"+ Keys.ENTER);
         //Amazonun içine girecez
-        WebElement aramaKutusu1=driver.findElement(By.tagName("https://www.amazon.com.tr/"));
+        WebElement aramaKutusu1=driver.findElement(By.className("d8lRkd"));
        aramaKutusu1.click();
 
     }
